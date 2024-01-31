@@ -49,7 +49,7 @@ module "polaris-aws-cloud-native-archival-location" {
 
   rsc_archive_location_bucket_prefix  = "<customer_name>-rsc"
   rsc_archive_location_name           = "Terraform-created-archive-location"
-  rsc_aws_cnp_account_id              = module.polaris-aws-cloud-native_host.rsc_aws_cnp_account_id
+  rsc_aws_cnp_account_id              = module.polaris-aws-cloud-native.rsc_aws_cnp_account_id
   rsc_credentials                     = "../.creds/customer-service-account.json"
 }
 ```
