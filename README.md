@@ -62,19 +62,19 @@ module "polaris-aws-cloud-native-archival-location" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >=1.5.6 |
-| <a name="requirement_polaris"></a> [polaris](#requirement\_polaris) | =0.8.0-beta.8 |
+| <a name="requirement_polaris"></a> [polaris](#requirement\_polaris) | =0.8.0-beta.16 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_polaris"></a> [polaris](#provider\_polaris) | 0.8.0-beta.8 |
+| <a name="provider_polaris"></a> [polaris](#provider\_polaris) | 0.8.0-beta.16 |
 
 ## Resources
 
 | Name | Type |
 |------|------|
-| [polaris_aws_archival_location.archival_location](https://registry.terraform.io/providers/rubrikinc/polaris/0.8.0-beta.8/docs/resources/aws_archival_location) | resource |
+| [polaris_aws_archival_location.archival_location](https://registry.terraform.io/providers/rubrikinc/polaris/0.8.0-beta.16/docs/resources/aws_archival_location) | resource |
 
 ## Modules
 
